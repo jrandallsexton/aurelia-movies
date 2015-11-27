@@ -7,7 +7,8 @@ export class List {
         this.movieData = movieData;
     }
     activate() {
-        return this.movieData.getAll()
-        .then(movies => this.movies = movies);
+        return this.movieData
+            .getAll()
+            .then(movies => this.movies = movies);
     }
 }
