@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <!-- TODO: Determine why JSPM did not include the CSS files -->
+    <!-- see: https://github.com/jspm/jspm-cli/issues/393 -->
+    <!-- #HACK -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- #ENDHACK -->
     <title>Aurelia Movies</title>
 </head>
-<body aurelia-app>
+<body aurelia-app="main">
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
     <script>
