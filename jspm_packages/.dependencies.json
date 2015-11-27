@@ -167,5 +167,10 @@
     "aurelia-pal": "npm:aurelia-pal@^1.0.0-beta.1",
     "aurelia-path": "npm:aurelia-path@^1.0.0-beta.1",
     "core-js": "npm:core-js@^1.2.6"
-  }
+  },
+  "github:twbs/bootstrap@3.3.6": {
+    "jquery": "github:components/jquery"
+  },
+  "github:components/jquery@2.1.4": {},
+  "github:systemjs/plugin-css@0.1.20": {}
 }
