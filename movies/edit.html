@@ -1,0 +1,34 @@
+<template>
+    <div class="container">
+        <div class="panel panel-default">
+
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <h3>Editing ${movie.title}</h3>
+                </div>
+            </div>
+
+            <div class="panel-body">
+                <form class="form-horizontal">
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Title</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="title" class="form-control"
+                                   value.bind="movie.title">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Release Year</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="release year" class="form-control"
+                                   value.bind="movie.releaseYear">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</template>

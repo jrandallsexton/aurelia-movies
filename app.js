@@ -5,7 +5,9 @@ export class App {
         config.map([
             { route: ["", "list"], moduleId: "movies/list", title: "List", nav: true, name: "home" },
             { route: "about", moduleId: "about/about", title: "About", nav: true, name: "about" },
-            { route: "details/:id", moduleId: "movies/details", name: "details" }
+            { route: "details/:id", moduleId: "movies/details", name: "details" },
+            { route: "edit/:id", moduleId: "movies/edit", name: "edit" },
+            { route: "create", moduleId: "movies/edit", name: "create" }
         ]);
     }
 }
