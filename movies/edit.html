@@ -29,7 +29,8 @@
                         </div>
                     </div>
 
-                    <input type="submit" class="btn btn-primary" value="Save"/>
+                    <input type="submit" class="btn btn-primary"
+                           value="Save" disabled.bind="!validation.result.isValid"/>
 
                 </form>
             </div>
