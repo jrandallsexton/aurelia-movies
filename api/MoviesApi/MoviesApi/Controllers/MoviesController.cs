@@ -91,7 +91,12 @@ namespace MoviesApi.Controllers
                 new SqlParameter("@Id", value.id)
             };
 
-            return Ok(ExecuteInLineSql(sql, paramList));
+            if (ExecuteInLineSql(sql, paramList))
+            {
+                return Ok(value);
+            }
+
+            return InternalServerError();
         }
 
         private static bool ExecuteInLineSql(string sqlStatement, IEnumerable<SqlParameter> paramList)

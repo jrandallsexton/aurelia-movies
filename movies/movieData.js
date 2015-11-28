@@ -25,4 +25,8 @@ export class MovieData {
                         .then(response => response.content);
     }
 
+    save(id, movie) {
+        return this.http.put(`${baseUrl}/${id}`, movie);
+    }
+
 }
