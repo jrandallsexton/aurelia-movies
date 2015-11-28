@@ -9,7 +9,9 @@
             </div>
 
             <div class="panel-body">
-                <form class="form-horizontal">
+                <form class="form-horizontal"
+                      validate.bind="validation"
+                      submit.trigger="save()">
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Title</label>
@@ -27,10 +29,7 @@
                         </div>
                     </div>
 
-                    <button class="btn btn-primary"
-                            click.trigger="save()">
-                        Save
-                    </button>
+                    <input type="submit" class="btn btn-primary" value="Save"/>
 
                 </form>
             </div>
