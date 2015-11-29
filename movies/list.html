@@ -10,10 +10,11 @@
                 <td>${movie.title}</td>
                 <td>${movie.releaseYear}</td>
                 <td>
+                    <!-- route: the route NAME -->
                     <a route-href="route:movieDetails; params.bind:{id:movie.id}" class="btn btn-default">
                         Details
                     </a>
-                    <a route-href="route:edit; params.bind:{id:movie.id}" class="btn btn-default">
+                    <a route-href="route:movieEdit; params.bind:{id:movie.id}" class="btn btn-default">
                         Edit
                     </a>
                 </td>

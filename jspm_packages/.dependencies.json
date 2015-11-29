@@ -182,5 +182,13 @@
     "aurelia-logging": "npm:aurelia-logging@^1.0.0-beta.1",
     "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1",
     "aurelia-templating": "npm:aurelia-templating@^1.0.0-beta.1"
+  },
+  "npm:aurelia-fetch-client@1.0.0-beta.1": {
+    "core-js": "npm:core-js@^1.2.6"
+  },
+  "github:paulvanbladel/aurelia-auth@0.11.3": {
+    "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0-beta.1",
+    "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1",
+    "aurelia-http-client": "npm:aurelia-http-client@^1.0.0-beta.1"
   }
 }

@@ -4,10 +4,10 @@
 import {inject} from "aurelia-framework";
 import {HttpClient} from "aurelia-http-client";
 
-let baseUrl = 'http://localhost/authApi/api/accounts/users';
+let baseUrl = 'http://localhost/moviesApi/api/actors';
 
 @inject(HttpClient)
-export class UserData {
+export class ActorData {
 
     constructor(httpClient) {
         this.http = httpClient;
@@ -23,6 +23,10 @@ export class UserData {
     getById(id) {
         return this.http.get(`${baseUrl}/${id}`)
             .then(response => response.content);
+    }
+
+    save(id, movie) {
+        return this.http.put(`${baseUrl}/${id}`, movie);
     }
 
 }

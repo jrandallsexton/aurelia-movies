@@ -12,6 +12,14 @@
                     <a href.bind="row.href">${row.title}</a>
                 </li>
             </ul>
+            <ul if.bind="!isAuthenticated" class="nav navbar-nav navbar-right">
+                <li><a href="/#/login">Login</a></li>
+                <li><a href="/#/signup">Sign up</a></li>
+            </ul>
+            <ul if.bind="isAuthenticated" class="nav navbar-nav navbar-right">
+                <li><a href="/#/profile">Profile</a></li>
+                <li><a href="/#/logout">Logout</a></li>
+            </ul>
         </div>
     </nav>
     <div class="container" show.bind="router.isNavigating">

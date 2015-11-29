@@ -15,6 +15,7 @@ System.config({
   },
 
   map: {
+    "aurelia-auth": "github:paulvanbladel/aurelia-auth@0.11.3",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.2",
     "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1",
@@ -35,6 +36,11 @@ System.config({
     },
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
+    },
+    "github:paulvanbladel/aurelia-auth@0.11.3": {
+      "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1",
+      "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.2",
+      "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1"
     },
     "github:twbs/bootstrap@3.3.6": {
       "jquery": "github:components/jquery@2.1.4"
@@ -72,6 +78,9 @@ System.config({
     },
     "npm:aurelia-event-aggregator@1.0.0-beta.1": {
       "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1"
+    },
+    "npm:aurelia-fetch-client@1.0.0-beta.1": {
+      "core-js": "npm:core-js@1.2.6"
     },
     "npm:aurelia-framework@1.0.0-beta.1.0.2": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.0.1",
