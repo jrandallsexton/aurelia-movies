@@ -5,7 +5,7 @@ var aurelia = require("aurelia-cli");
 
 aurelia.command("bundle", {
     js: {
-        
+
     },
     template: {}
 });

@@ -49,6 +49,7 @@ namespace MoviesApi.Controllers
             return Ok(movies);
         }
 
+        [AllowAnonymous]
         public IHttpActionResult GetById(int id)
         {
             var sql = "SELECT [Id], [Title], [ReleaseYear] FROM [Movies] WHERE [Id] = " + id;
