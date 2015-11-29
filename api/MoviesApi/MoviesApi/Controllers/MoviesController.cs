@@ -10,10 +10,12 @@ using MoviesApi.Models;
 
 namespace MoviesApi.Controllers
 {
+    [Authorize]
     public class MoviesController : ApiController
     {
         private const string connString = "Server=(local)\\devsql;Database=movies;User Id=sa;Password=sesame1?";
 
+        [AllowAnonymous]
         public IHttpActionResult Get()
         {
             const string sql = "SELECT [Id], [Title], [ReleaseYear] FROM [Movies] ORDER BY [Title]";
