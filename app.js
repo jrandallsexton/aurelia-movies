@@ -23,7 +23,7 @@ export class App {
             { route: "users/list",          moduleId: "users/list",     title: "Users",     nav: true,  name: "usersList" },
             { route: "users/edit/:id",      moduleId: "users/edit",                                     name: "userEdit" },
             { route: "details/:id",         moduleId: "users/details",                                  name: "userDetails" },
-            { route: 'login',               moduleId: './login',        title:"Login",      nav: false, name:'Login' }
+            { route: 'login',               moduleId: './login',        title:"Login",      nav: false, name: "Login" }
         ]);
     }
 

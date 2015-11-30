@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067c462f-2808-4789-a6ec-8b64f59dfe7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actors/actorData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actors/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actors/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/authConfig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/MoviesApi/MoviesApi.v12.suo" afterPath="$PROJECT_DIR$/api/MoviesApi/MoviesApi.v12.suo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.html" afterPath="$PROJECT_DIR$/app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/MoviesApi/MoviesApi/Controllers/MoviesController.cs" afterPath="$PROJECT_DIR$/api/MoviesApi/MoviesApi/Controllers/MoviesController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/MoviesApi/MoviesApi/MoviesApi.csproj" afterPath="$PROJECT_DIR$/api/MoviesApi/MoviesApi/MoviesApi.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/.dependencies.json" afterPath="$PROJECT_DIR$/jspm_packages/.dependencies.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/util@0.10.3/.jspm-hash" afterPath="$PROJECT_DIR$/jspm_packages/npm/util@0.10.3/.jspm-hash" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movies/list.html" afterPath="$PROJECT_DIR$/movies/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/list.html" afterPath="$PROJECT_DIR$/users/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/userData.js" afterPath="$PROJECT_DIR$/users/userData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/edit.html" afterPath="$PROJECT_DIR$/users/edit.html" />
     </list>
     <ignored path="aurelia-movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.47685835">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -54,8 +41,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.111111">
-              <caret line="24" column="122" selection-start-line="24" selection-start-column="111" selection-end-line="24" selection-end-column="122" />
+            <state vertical-scroll-proportion="-13.851851">
+              <caret line="22" column="114" selection-start-line="22" selection-start-column="114" selection-end-line="22" selection-end-column="114" />
               <folding />
             </state>
           </provider>
@@ -71,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userData.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="userData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/userData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5491573">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state vertical-scroll-proportion="-9.444445">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -176,11 +163,11 @@
         <option value="$PROJECT_DIR$/actors/list.html" />
         <option value="$PROJECT_DIR$/actors/actorData.js" />
         <option value="$PROJECT_DIR$/users/edit.js" />
-        <option value="$PROJECT_DIR$/users/edit.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/movies/list.html" />
         <option value="$PROJECT_DIR$/users/list.html" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/users/userData.js" />
+        <option value="$PROJECT_DIR$/users/edit.html" />
       </list>
     </option>
   </component>
@@ -621,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movies/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.423077">
@@ -653,14 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.111111">
-          <caret line="24" column="122" selection-start-line="24" selection-start-column="111" selection-end-line="24" selection-end-column="122" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923">
@@ -677,10 +648,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.851851">
+          <caret line="22" column="114" selection-start-line="22" selection-start-column="114" selection-end-line="22" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/users/userData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5491573">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state vertical-scroll-proportion="-9.444445">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47685835">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding />
         </state>
       </provider>
